@@ -22,8 +22,8 @@ function Home() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Kalkulator BMI</h1>
+    <div style= {{ padding: "20px",backgroundColor: "lightblue" }}>
+      <h1 style={{ backgroundColor: "green", color: "white" }}>Kalkulator BMI</h1>
       <div>
         <input
           type="number"
